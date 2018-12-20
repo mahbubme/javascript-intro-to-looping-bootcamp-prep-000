@@ -10,3 +10,11 @@ function forLoop(array) {
   return array;
 }
 
+function whileLoop(n) {
+  while( n > 0 ) {
+    --countdown;
+    if (counntdown === 0){
+      return "done";
+    }
+  }
+}
