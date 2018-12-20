@@ -12,8 +12,8 @@ function forLoop(array) {
 
 function whileLoop(n) {
   while( n > 0 ) {
-    --countdown;
-    if (counntdown === 0){
+    --n;
+    if (n === 0){
       return "done";
     }
   }
